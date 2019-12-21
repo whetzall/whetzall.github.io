@@ -1,0 +1,360 @@
+@import url("https://use.typekit.net/rsz5vku.css");
+
+.overall_grid{
+    height: 370vh;
+    width: 98vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr .9fr;
+    grid-template-columns: 1fr;
+    margin-left: 0%;
+}
+
+
+.main_pic img {
+    margin-top: -3vh;
+    margin-left: -2vw;
+    max-width: 102.5%;
+    max-height: auto;
+    z-index: 1;
+}
+
+.name{
+    z-index: 2;
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+    font-size: 2em;
+    color: #02FF00;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sections{
+    display: grid;
+    grid-template-rows: 1fr .1fr;
+    position: relative;
+    width: 100;
+}
+
+.sections_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8vh;
+    margin-right: 10vh;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: normal;
+}
+
+.picture img {
+    max-width: 70%;
+
+}
+
+
+.me{
+    background-color: black;
+    width: 98vw;
+    display: grid;
+    grid-template-columns: .75fr 1fr;
+
+}
+
+.left_me{
+    margin:auto;
+}
+
+.words{
+    margin-top: 60vh;
+    color: white;
+    padding-left: 5vw;
+    margin-right: 10vw;
+    font-size: .8em;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+.name1{
+    font-size: 2em;
+    color: #02FF00;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1em;
+}
+
+hr{
+    position: absolute;
+    width: 98vw;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#02FF00;
+    border: 0 none;
+    top: calc(50% - 37.4px);
+    margin-top: 0;
+    }
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active{
+    color: #02FF00;
+}
+
+
+/* ----------- SMART PHONES ----------- */
+@media only screen and (max-width: 800px) {
+
+    .overall_grid{
+        height: 550vh;
+        width: 175vw;
+        display: grid;
+        grid-template-rows: 1fr 1fr .5fr;
+        grid-template-columns: 1fr;
+        margin-left: 0%;
+    }
+    
+    
+    .main_pic img {
+        object-fit: cover;
+        margin-top: -3vh;
+        margin-left: -2vw;
+        max-width: 250%;
+        max-height: auto;
+        z-index: 1;
+    }
+    
+
+    .name{
+        z-index: 2;
+        position: absolute;
+        top: 50vh;
+        left: 5vw;
+        font-size: 2em;
+        color: #02FF00;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .sections{
+        display: grid;
+        grid-template-rows: 1fr .1fr;
+        position: relative;
+        width: 100;
+    }
+    
+    .sections_top{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: relative;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 8vh;
+        margin-right: 10vh;
+        text-align: center;
+        font-size: 1em;
+        letter-spacing: normal;
+    }
+    
+    .picture img {
+        max-width: 70%;
+    
+    }
+    
+    
+    .me{
+        background-color: black;
+        width: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    
+    }
+    
+    .left_me{
+        margin:auto;
+        padding-right: 0vw;
+        padding-left: 0vw;
+    }
+    
+    .words{
+        margin: auto;
+        color: white;
+
+        font-size: .8em;
+        font-family: roboto, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 1.5em;
+        text-align: center;
+        padding: 20vw;
+    }
+    
+    .name1{
+        font-size: 2em;
+        color: #02FF00;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1em;
+    }
+    
+    hr{
+        position: absolute;
+        width: 175vw;
+        height: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#02FF00;
+        border: 0 none;
+        top: calc(50% - 54px);
+        margin-top: 0;
+        }
+    
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover, a:active{
+        color: #02FF00;
+    }
+    
+
+}
+
+
+
+/* ----------- TABLETS ----------- */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    .overall_grid{
+        height: 320vh;
+        width: 100vw;
+        display: grid;
+        grid-template-rows: 1fr 1fr .9fr;
+        grid-template-columns: 1fr;
+        margin-left: 0%;
+    }
+    
+    
+    .main_pic img {
+        margin-top: -3vh;
+        margin-left: -2vw;
+        max-width: 200%;
+        max-height:auto;
+        z-index: 1;
+    }
+    
+    .name{
+        z-index: 2;
+        position: absolute;
+        top: 50vh;
+        left: 5vw;
+        font-size: 2em;
+        color: #02FF00;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .sections{
+        display: grid;
+        grid-template-rows: 1fr .1fr;
+        position: relative;
+        width: 100;
+    }
+    
+    .sections_top{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: relative;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 8vh;
+        margin-right: 10vh;
+        text-align: center;
+        font-size: 1.8em;
+        letter-spacing: normal;
+    }
+    
+    .picture img {
+        max-width: 70%;
+    
+    }
+    
+    
+    .me{
+        background-color: black;
+        width: 98vw;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        margin: auto;
+    
+    }
+    
+    .left_me{
+      margin-top: 10vh;
+    }
+    
+    .words{
+        margin-top: 10vh;
+        color: white;
+        padding-left: 5vw;
+        margin-right: 10vw;
+        font-size: 1.5em;
+        font-family: roboto, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 1.5em;
+    }
+    
+    .name1{
+        font-size: 2em;
+        color: #02FF00;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1em;
+    }
+    
+    hr{
+        position: absolute;
+        width: 98vw;
+        height: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#02FF00;
+        border: 0 none;
+        top: calc(50% - 56px);
+        margin-top: 0;
+        }
+    
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover, a:active{
+        color: #02FF00;
+    }
+}

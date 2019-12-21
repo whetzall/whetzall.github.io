@@ -1,0 +1,453 @@
+@import url("https://use.typekit.net/rsz5vku.css");
+
+.top{
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr .1fr;
+
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1.4fr 8fr 1fr;
+}
+
+h1{
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    font-size: 2em;
+    letter-spacing: normal;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+h2{
+    font-size: 1.4em;
+    color: #02FF00;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: auto;
+    margin-left: 2vw;
+}
+
+
+
+h3{
+    font-size: 1em;
+    color: black;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    margin-top: auto;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active{
+    color: #02FF00;
+}
+
+hr{
+    position: absolute;
+    width: 8.2%;
+    height: 4.2px;
+    margin-left: 12.8vw;
+    background-color:#02FF00;
+    border: 0 none;
+    margin-top:4.8vh;
+    z-index: 2;
+
+}
+
+
+
+.main{
+    margin-top: 15vh;
+    height: 400vh;
+}
+
+
+.pictures{
+    display: grid;
+    grid-template-rows: 60vh 60vh 60vh;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-column-gap: 1vh;
+
+}
+
+
+.description{
+    padding: 5vh;
+    font-size: 1em;
+    color: black;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+    margin: auto; 
+    text-align: center;
+}
+
+.project{
+    margin: auto;
+    float: right;
+    filter: grayscale(100%);
+    max-height: 10vh;
+    max-width: 30vw;
+}
+
+.right{
+    margin: auto;
+    float: right;
+    max-height: 40vh;
+    max-width: 30vw;
+}
+
+.left{
+    float: left;
+    max-height: 40vh;
+}
+
+
+.project:hover{
+    filter: none;
+    
+}
+
+.project1{
+    margin-left: 0vw;
+}
+
+.drawing-line{
+    width: 9.7%;
+}
+
+.metalworks-line{
+    width: 13.7%;
+}
+
+.photo-line{
+    width: 7.5%;
+}
+
+.head {
+    font-size: 1.3em;
+}
+
+/* ----------- SMART PHONES ----------- */
+@media only screen and (max-width: 800px) {
+
+    .top{
+        position: relative;
+        height: 10vh;
+        width: 90vw;
+        display: grid;
+        grid-template-rows: 1fr .1fr;
+    
+    }
+    
+    .header{
+        display: grid;
+        grid-template-columns: 4fr 8fr 1fr;
+    }
+    
+    h1{
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: left;
+        font-size: 1.5em;
+        letter-spacing: normal;
+        margin-top: auto;
+        margin-bottom: auto;
+    
+    }
+    
+    h2{
+        font-size: .9em;
+        color: #02FF00;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2vw;
+    }
+    
+    
+    
+    h3{
+        font-size: .7em;
+        color: black;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover, a:active{
+        color: #02FF00;
+    }
+    
+    hr{
+        position: absolute;
+        width: 8.2%;
+        height: 3px;
+        margin-left: 26vw;
+        background-color:#02FF00;
+        border: 0 none;
+        margin-top:4.8vh;
+        z-index: 2;
+    
+    }
+    
+    
+    
+    .main{
+        margin-top: 3vh;
+        height: 400vh;
+    }
+    
+    
+    .pictures{
+        margin: auto;
+        display: grid;
+        grid-template-rows: 150vh ;
+    }
+    
+    .row{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-column-gap: 1vh;
+    
+    }
+    
+    
+    .description{
+        font-size: 1em;
+        color: black;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+        margin: auto; 
+        text-align: center;
+    }
+    
+    .project{
+        margin: auto;
+        float: none;
+        filter: grayscale(100%);
+        max-height: 10vh;
+  
+    }
+    
+    .right{
+        float: none;
+        max-height: 35vh;
+    }
+    
+    .left{
+        float: left;
+        max-height: 35vh;
+    }
+    
+    
+    .project:hover{
+        filter: none;
+        
+    }
+    
+    .project1{
+        margin-left: 0vw;
+    }
+    
+    .drawing-line{
+        width: 9.7%;
+    }
+    
+    .metalworks-line{
+        width: 13.7%;
+    }
+    
+    .photo-line{
+        width: 20%;
+    }
+
+
+}
+
+
+
+
+/* ----------- TABLETS ----------- */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+    .body{
+        height: 300vh;
+    }
+
+    .top{
+        position: relative;
+        height: 10vh;
+        width: 100vw;
+        display: grid;
+        grid-template-rows: 1fr .1fr;
+    
+    }
+    
+    .header{
+        display: grid;
+        grid-template-columns: 2.3fr 8fr 1fr;
+    }
+    
+    h1{
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: left;
+        font-size: 2em;
+        letter-spacing: normal;
+        margin-top: auto;
+        margin-bottom: auto;
+    
+    }
+    
+    h2{
+        font-size: 1.4em;
+        color: #02FF00;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2vw;
+    }
+    
+    
+    
+    h3{
+        font-size: 1em;
+        color: black;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    a:link, a:visited{
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover, a:active{
+        color: #02FF00;
+    }
+    
+    hr{
+        position: absolute;
+        width: 20%;
+        height: 4.2px;
+        margin-left: 20vw;
+        background-color:#02FF00;
+        border: 0 none;
+        margin-top:4.6vh;
+        z-index: 2;
+    
+    }
+    
+    
+    
+    .main{
+        margin-top: 0vh;
+        height: 300vh;
+    }
+    
+    
+    .pictures{
+        display: grid;
+        grid-template-rows: 80vh 80vh 80vh 80vh;
+    }
+    
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1vh;
+        width: 80vw;
+    }
+    
+    
+
+
+    .description{
+        font-size: 1em;
+        color: black;
+        font-family: roboto, sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+        margin: auto; 
+        text-align: center;
+        padding: 8vw;
+    }
+    
+    .project{
+        margin: auto;
+        float: right;
+        filter: grayscale(100%);
+        max-height: 4vh;
+    }
+    
+    .right{
+        float: right;
+        max-height: 25vh;
+    }
+    
+    .left{
+        padding-left: 5vw;
+        float: left;
+        max-height: 25vh;
+    }
+    
+    
+    .project:hover{
+        filter: none;
+        
+    }
+    
+    .project1{
+        margin-left: 0vw;
+    }
+    
+    .drawing-line{
+        width: 9.7%;
+    }
+    
+    .metalworks-line{
+        width: 13.7%;
+    }
+    
+    .photo-line{
+        width: 10%;
+    }
+
+
+
+}
